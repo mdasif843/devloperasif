@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+.celar{
+	overflow::hidden;
+}
+.main{
+	width:100%;
+}
+.conteiner{
+	width:1040px;
+	margin:0 auto;
+}
+.header{
+	height:100px;
+}
+.logo{
+	float:left;
+	width:40%;
+}
+.logo h1{
+	font-size: 50px;	
+	padding-top: 10px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.logo span{
+	
+color: blue;
+	
+padding-right: 16px;
+}
+.header-con{
+	float:right;
+	width:50%;
+}
+.header-con-top{
+	float:right;
+}
+.hct-s1{
+	float: left;
+    width: 116px;
+    background: black;
+    color: white;
+    padding: 6px 9px;
+}
+.hct-s1 i{
+	font-size:30px;
+}
+.hct-s1 p{
+	font-size:14px;
+	display:inline-block;
+}
+.header-con-bottom{
+	float:right;
+	padding: 15px 0;
+}
+.header-con-bottom p{
+	color:blue;
+}
+.header-con-bottom p i{
+	
+}
+.header-con-bottom p span{
+	font-weight: bold;
+    color: #00adff;
+}
+
+
+
+
+
+
+
