@@ -1,170 +1,161 @@
-*{
-	margin:0;
-	padding:0;
-	outline:0;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
-body{
-	font-family: sans-serif;
+body {
+    font-family: sans-serif;
 }
 /*Common css*/
-.full-website{
-	width:100%;
+.full-website {
+    width: 100%;
 }
-.container{
-	width:1150px;
-	margin:0 auto;
+.container {
+    width: 1150px;
+    margin: 0 auto;
 }
-.container1{
-	width:1050px;
-	margin:0 auto;
+.container1 {
+    width: 1050px;
+    margin: 0 auto;
 }
-.clear{
-	overflow:hidden;
+.clear {
+    overflow: hidden;
 }
-a{
-	text-decoration:none;
+
+a {
+    text-decoration: none;
 }
 
 /*headersec*/
 
-.headersec{
-	background: url(https://i.postimg.cc/5yVCdGPw/ia-200000019.jpg);
+.headersec {
+    background: url(https://i.postimg.cc/5yVCdGPw/ia-200000019.jpg);
     background-size: cover;
     background-position: center center;
     padding: 329px 0;
     background-blend-mode: darken;
     background-color: #00000075;
-  
 }
-.menuber{
-	background: #42494c82;
+.menuber {
+    background: #42494c82;
     height: 70px;
     margin-top: -330px;
 }
-.logo{
-	float:left;
-	width:30%;
+.logo {
+    float: left;
+    width: 30%;
 }
-.logo img{
-	width: 220px;
+.logo img {
+    width: 220px;
     margin-top: 5px;
 }
-.navber{
-	float: right;
+.navber {
+    float: right;
     width: 50%;
     text-align: left;
 }
-.navber ul{
-	list-style:none;
-	text-align:center;
+.navber ul {
+    list-style: none;
+    text-align: center;
 }
-.navber ul li{
-	display:inline-block;
+.navber ul li {
+    display: inline-block;
 }
-.navber ul li a{
-	display: inline-block;
+.navber ul li a {
+    display: inline-block;
     padding: 24px 10px;
     font-size: 16px;
     color: #fff;
-	position:relative;
-	
+    position: relative;
 }
-.navber ul li:hover >a{
-	color:#C69453;
+.navber ul li:hover > a {
+    color: #c69453;
 }
 
-.navber ul li a::before{
-	content: '';
+.navber ul li a::before {
+    content: "";
     position: absolute;
     width: 0;
     height: 3px;
-    background: #C48A43;
+    background: #c48a43;
     left: 0;
     bottom: 0;
-	opacity:0;
-	transform:scale(0,1);
-	visibility:hidden;
-	transition:.5s;
-	margin:auto;
-	transform-origin: center;
-	
+    opacity: 0;
+    transform: scale(0, 1);
+    visibility: hidden;
+    transition: 0.5s;
+    margin: auto;
+    transform-origin: center;
 }
-.navber ul li a:hover::before{
-	content: '';
-	width: 100%;
-	opacity:1;
-	visibility:visible;
-	transform-origin: center center;
-	transition:.5s;
-	transform:scale(1,1);
-	
-	
-	transform-origin: center;
-	
+.navber ul li a:hover::before {
+    content: "";
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transform-origin: center center;
+    transition: 0.5s;
+    transform: scale(1, 1);
+
+    transform-origin: center;
 }
-
-
-
 
 /*dropdown*/
-.navber ul li{
-	position:relative;
+.navber ul li {
+    position: relative;
 }
-.navber ul li ul{
-	position:absolute;
-	width:200px;
-	background:white;
-	top: 55px;
-	opacity:0;
-	visibility:hidden;
-	transform:scaleY(0); 
-	transform-origin:top center;
-	transition:.4s;
+.navber ul li ul {
+    position: absolute;
+    width: 200px;
+    background: white;
+    top: 55px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: 0.4s;
 }
-.navber ul li:hover ul{
-	opacity:1;
-	visibility:visible;
-	transform-origin: center ;
-	transform:scaleY(1);
-	transition:.4s;
-	
+.navber ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform-origin: center;
+    transform: scaleY(1);
+    transition: 0.4s;
 }
-.navber ul li ul li{
-	display:block;
+.navber ul li ul li {
+    display: block;
 }
-.navber ul li ul li a{
-	display:block;
-	color:black;
-	padding: 16px 0px;
+.navber ul li ul li a {
+    display: block;
+    color: black;
+    padding: 16px 0px;
 }
-.navber ul li ul li a::before{
-	display:none;
+.navber ul li ul li a::before {
+    display: none;
 }
-.navber ul li ul li a:hover{
-	background:#ddd;
-}
-
-
-.navber ul li a i{
-	padding-left:2px;
+.navber ul li ul li a:hover {
+    background: #ddd;
 }
 
-.headercon{
-	text-align: center;
-	color: #fff;
+.navber ul li a i {
+    padding-left: 2px;
 }
-.headercon h1{
-	margin-top: 170px;
+
+.headercon {
+    text-align: center;
+    color: #fff;
+}
+.headercon h1 {
+    margin-top: 170px;
     font-size: 65px;
     margin-bottom: 20px;
 }
-.headercon h2{
-	position: relative;
+.headercon h2 {
+    position: relative;
     font-size: 25px;
     font-weight: normal;
 }
-.headercon h2:after{
-	content: '';
+.headercon h2:after {
+    content: "";
     height: 2px;
     width: 60px;
     background: white;
@@ -173,8 +164,8 @@ a{
     margin-left: 25px;
 }
 
-.headercon h2:before{
-	content: '';
+.headercon h2:before {
+    content: "";
     height: 2px;
     width: 60px;
     background: white;
@@ -182,200 +173,200 @@ a{
     margin-left: -85px;
     margin-top: 13px;
 }
-.headercon a{
-	display: inline-block;
+.headercon a {
+    display: inline-block;
     padding: 15px 33px;
-    background: #C69453;
+    background: #c69453;
     color: white;
     border-radius: 30px;
     margin-top: 41px;
-	transition:.3s;
+    transition: 0.3s;
 }
-.headercon a:hover{
-	color:#C69453;
-	background:white;
-	transition:.3s;
+.headercon a:hover {
+    color: #c69453;
+    background: white;
+    transition: 0.3s;
 }
 
 /*Bannersec*/
-.servicesec{
-	background:#F8F8F8;
+.servicesec {
+    background: #f8f8f8;
 }
-.service{
-	margin-top: 70px;
+.service {
+    margin-top: 70px;
     margin-bottom: 200px;
 }
-.servicecon{
-	display: inline-block;
+.servicecon {
+    display: inline-block;
     width: 239px;
     margin: 0px 20px;
     background: white;
     text-align: center;
     margin-left: 0;
 }
-.servicecon{
-	transition:.3s;
+.servicecon {
+    transition: 0.3s;
 }
-.servicecon:hover{
-	background:#ddd;
-	transition:.3s;
+.servicecon:hover {
+    background: #ddd;
+    transition: 0.3s;
 }
-.servicecon img{
-	padding: 30px;
-	transition:.6s;
+.servicecon img {
+    padding: 30px;
+    transition: 0.6s;
 }
-.servicecon:hover img{
-	transform: rotateY(360deg);
-	transition:.6s;	
+.servicecon:hover img {
+    transform: rotateY(360deg);
+    transition: 0.6s;
 }
 
-.servicecon h4{
-	margin-bottom: 20px;
+.servicecon h4 {
+    margin-bottom: 20px;
     padding: 0px 13px;
-	font-size: 16px;	
+    font-size: 16px;
 }
-.servicecon p{
-	margin-bottom: 30px;
+.servicecon p {
+    margin-bottom: 30px;
     line-height: 24px;
     font-size: 15px;
 }
-.servicecon a{
-	padding: 10px 20px;
+.servicecon a {
+    padding: 10px 20px;
     display: inline-block;
-    background: #C69453;
+    background: #c69453;
     color: white;
     border-radius: 5px;
-	margin-bottom: 30px;
-transition:.6s;	
+    margin-bottom: 30px;
+    transition: 0.6s;
 }
-.servicecon:hover a{
-	color:#C69453;
-	background:white;
+.servicecon:hover a {
+    color: #c69453;
+    background: white;
 }
-.servicecon a:hover{
-	background: black;
+.servicecon a:hover {
+    background: black;
     color: white;
-    transform: translate(0px,15px);
-    transition: .6s;
+    transform: translate(0px, 15px);
+    transition: 0.6s;
 }
-.video{
-	float:left;
-	margin-right:20px;
-	width:500px;
+.video {
+    float: left;
+    margin-right: 20px;
+    width: 500px;
 }
-.aboutsec{
-	float:left;
-	width:528px;
+.aboutsec {
+    float: left;
+    width: 528px;
 }
-.aboutsec h1{}
-.aboutsec h1 span{
-	color:#C69453;
+.aboutsec h1 {
 }
-.aboutsec p{
-	padding: 14px 0;
+.aboutsec h1 span {
+    color: #c69453;
+}
+.aboutsec p {
+    padding: 14px 0;
     line-height: 23px;
 }
-.aboutsec a{
-	background: black;
+.aboutsec a {
+    background: black;
     color: white;
     margin-top: 10px;
     display: inline-block;
     padding: 10px;
-	transition:.4s;
+    transition: 0.4s;
 }
-.aboutsec a:hover{
-	background:#C69453;
-	color:white;
-	transition:.4s;
-}
-
-.loginsec{
-	position:relative;
+.aboutsec a:hover {
+    background: #c69453;
+    color: white;
+    transition: 0.4s;
 }
 
-.logoin{
-	width: 584px;
-	margin-left: 20px;
-	display:inline-block;
-	position:absolute;
-	top:100px;
-	left:20px;
+.loginsec {
+    position: relative;
 }
-.logoin h1{
-	margin-top: 50px;
+
+.logoin {
+    width: 584px;
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.logoin h1 {
+    margin-top: 50px;
     margin-bottom: 24px;
     font-size: 30px;
 }
-.logoin p{
-	margin-bottom: 30px;
+.logoin p {
+    margin-bottom: 30px;
 }
-.input{
-	width: 455px;
+.input {
+    width: 455px;
     height: 40px;
     margin-bottom: 10px;
     border: none;
     padding-left: 10px;
-	box-shadow: 0px 0px 6px #ddd;
-	border:2px solid #fff;
+    box-shadow: 0px 0px 6px #ddd;
+    border: 2px solid #fff;
 }
-.input:focus{
-	border:2px solid #000;
-	border-radius:5px;
+.input:focus {
+    border: 2px solid #000;
+    border-radius: 5px;
 }
-.logoin textarea{
-	width: 445px;
+.logoin textarea {
+    width: 445px;
     height: 110px;
     margin-bottom: 10px;
     border: none;
     padding: 10px 10px;
-	box-shadow: 0px 0px 6px #ddd;
-	border:2px solid #fff;
+    box-shadow: 0px 0px 6px #ddd;
+    border: 2px solid #fff;
 }
-.logoin textarea:focus{
-	border:2px solid #000;
-	border-radius:5px;
+.logoin textarea:focus {
+    border: 2px solid #000;
+    border-radius: 5px;
 }
-.submit{
-	padding: 14px 20px;
+.submit {
+    padding: 14px 20px;
     border: none;
-    background: #C69453;
+    background: #c69453;
     color: white;
     cursor: pointer;
 }
-.lo-img{
-	float: right;
+.lo-img {
+    float: right;
     width: 1141px;
     display: inline-block;
     margin-top: 50px;
 }
-.lo-img img{
-	height: 690px;
+.lo-img img {
+    height: 690px;
 }
 
-
-.footersec{
-	background:#6D6D6D;
-	margin-top: -4px;
+.footersec {
+    background: #6d6d6d;
+    margin-top: -4px;
 }
-.footer{	
-	width: 60%;
+.footer {
+    width: 60%;
     float: left;
-    padding: 40px 0
+    padding: 40px 0;
 }
-.footer p{
-	font-size: 14px;
-	color:white;
-	display:inline-block;
+.footer p {
+    font-size: 14px;
+    color: white;
+    display: inline-block;
 }
-.footer-icon{
-	float: left;
+.footer-icon {
+    float: left;
     width: 30%;
     margin-left: 45px;
 }
-.footer-icon a{
-	margin-left: 25px;
+.footer-icon a {
+    margin-left: 25px;
 }
-.footer-icon a i{
-	color: white;
+.footer-icon a i {
+    color: white;
     line-height: 101px;
 }
